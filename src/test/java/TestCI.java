@@ -14,7 +14,7 @@ public class TestCI {
     }
 
     @Test
-    void shouldPass() {
-        assertTrue(true);
+    void shouldFail() {
+        assertTrue(false);
     }
 }
